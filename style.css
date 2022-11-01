@@ -31,6 +31,16 @@ img {
     border-radius: 50%;
 }
 
+button {
+    border: 0;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: #cbd5e1;
+}
+
 /* Header */
 header {
     grid-area: 1 / 2 / 2 / 3;
@@ -81,9 +91,12 @@ header input {
     color: white;
     font-weight: bold;
     background-color: #60a5fa;
-    border: 0;
     height: 35px;
     border-radius: 18px;
+}
+
+.bot-header > button:hover {
+    background-color: #2563eb;
 }
 
 .greeting {
@@ -117,6 +130,10 @@ nav {
     text-decoration: none;
     font-size: 1.3em;
     font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /* Main area */
@@ -168,10 +185,10 @@ main h2 {
     justify-self: right;
 }
 
-.projbuttons > button {
+/* .projbuttons > button {
     background-color: transparent;
     border: 0;
-}
+} */
 
 .project-side-area {
     grid-column-start: 2;
